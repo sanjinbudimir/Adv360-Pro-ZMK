@@ -42,7 +42,7 @@
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                                       &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
         &trans  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT     &none                                                                        &none &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &trans
-        &trans  &kp N1   &kp N2 &kp N3   &kp N4   &kp N5        &none           &kp LCTRL &kp LALT &none &none &kp LGUI  &kp RCTRL           &kp N6 &kp N7 &kp N8  &kp N9 &kp N0 &trans
+        &trans  &kp N1   &kp N2 &kp N3   &kp N4   &kp N5        &none           &kp LCTRL &kp LALT &none &none &kp LGUI  &kp RCTRL           &none &kp N6 &kp N7 &kp N8  &kp N9 &kp N0 &trans
         &trans  &kp ESC   &kp PLUS &kp MINUS   &kp EQUAL   &kp UNDER         &none    &none     &kp HOME &none &none &kp PG_UP &none     &none           &kp LBKT &kp RBKT  &kp BSLH     &kp LBRC &kp RBRC &kp TILDE
         &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &trans &trans &trans                    &trans &trans &trans              &trans     &trans     &trans    &trans        &mo 2
       >;
