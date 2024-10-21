@@ -33,8 +33,8 @@
       bindings = <
         &none   &kp N1 &kp N2      &kp N3      &kp N4       &kp N5 &tog 1                                                        &mo 3  &kp N6 &kp N7       &kp N8      &kp N9      &kp N0   &none
         &none   &kp Q  &kp W       &kp E       &kp R        &kp T  &none                                                         &none  &kp Y  &kp U        &kp I       &kp O       &kp P    &none
-        &kp ESC &kp A  &bhm LGUI S &bhm LALT D &bhm LCTRL F &kp G  &none              &none    &none &none &none                 &none  &kp H  &bhm LCTRL J &bhm LALT K &bhm LGUI L &kp SEMI &kp TAB
-        &none   &kp Z  &kp X       &kp C       &kp V        &kp B                              &none &none                              &kp N  &kp M        &kp COMMA   &kp DOT     &kp FSLH &none
+        &kp ESC &kp A  &bhm LGUI S &bhm LALT D &bhm LCTRL F &kp G  &none           &none &none &none &none &none &none           &none  &kp H  &bhm LCTRL J &bhm LALT K &bhm LGUI L &kp SEMI &kp TAB
+        &none   &kp Z  &kp X       &kp C       &kp V        &kp B            &none &none &none &none &none &none &none &none            &kp N  &kp M        &kp COMMA   &kp DOT     &kp FSLH &none
         &none   &none  &none       &kp LEFT    &kp RIGHT                  &lt 1 SPACE &kp BSPC &none &none &lt 3 ENTER &kp SPACE               &kp UP       &kp DOWN    &none       &none    &none
       >;
     };
@@ -42,8 +42,8 @@
       bindings = <
         &none &none  &none    &none    &none    &none     &none                                                        &none &none      &none     &none       &none    &none        &none
         &none &none  &kp LBRC &kp RBRC &kp HASH &kp GRAVE &none                                                        &none &kp DOLLAR &kp PIPE  &kp DQT     &kp SQT  &kp BSLH     &none
-        &none &kp LT &kp LPAR &kp RPAR &kp GT   &kp TILDE &none             &none    &none &none &none                 &none &kp CARET  &kp MINUS &kp EQUAL   &kp PLUS &kp COLON    &none
-        &none &none  &kp LBKT &kp RBKT &kp STAR &kp AT                               &none &none                             &kp AMPS   &kp UNDER &kp PERCENT &kp EXCL &kp QUESTION &none
+        &none &kp LT &kp LPAR &kp RPAR &kp GT   &kp TILDE &none           &none &none &none &none &none &none          &none &kp CARET  &kp MINUS &kp EQUAL   &kp PLUS &kp COLON    &none
+        &none &none  &kp LBKT &kp RBKT &kp STAR &kp AT              &none &none &none &none &none &none &none &none          &kp AMPS   &kp UNDER &kp PERCENT &kp EXCL &kp QUESTION &none
         &none &none  &none    &none    &none                    &lt 1 SPACE &kp BSPC &none &none &lt 3 ENTER &kp SPACE                  &none     &none       &none    &none        &none
       >;
     };
