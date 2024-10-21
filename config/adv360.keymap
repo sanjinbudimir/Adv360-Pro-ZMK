@@ -41,8 +41,8 @@
     symbols {
       bindings = <
         &none &none  &none    &none    &none    &none     &none                                                        &none &none      &none     &none       &none    &none        &none
-        &none &none  &kp LBRC &kp RBRC &kp HASH &kp GRAVE &none                                                        &none &kp DOLLAR &kp PIPE  &kp DQT     &kp SQT  &kp BSLH     &none
-        &none &kp LT &kp LPAR &kp RPAR &kp GT   &kp TILDE &none           &none &none &none &none &none &none          &none &kp CARET  &kp MINUS &kp EQUAL   &kp PLUS &kp COLON    &none
+        &none &none  &kp LBRC &kp RBRC &kp HASH &kp GRAVE &none                                                        &none &kp TILDE  &kp PIPE  &kp DQT     &kp SQT  &kp BSLH     &none
+        &none &kp LT &kp LPAR &kp RPAR &kp GT   &kp CARET &none           &none &none &none &none &none &none          &none &kp DOLLAR &kp MINUS &kp EQUAL   &kp PLUS &kp COLON    &none
         &none &none  &kp LBKT &kp RBKT &kp STAR &kp AT              &none &none &none &none &none &none &none &none          &kp AMPS   &kp UNDER &kp PERCENT &kp EXCL &kp QUESTION &none
         &none &none  &none    &none    &none                    &lt 1 BSPC &kp LSHFT &none &none &kp ENTER &kp SPACE                    &none     &none       &none    &none        &none
       >;
