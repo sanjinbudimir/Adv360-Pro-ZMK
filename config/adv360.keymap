@@ -31,20 +31,20 @@
     compatible = "zmk,keymap";
     default_layer {
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                                       &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp PLUS  &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                                        &none &kp Y  &kp U  &kp I     &kp O   &kp P    &kp PIPE
-        &kp ESC  &bhm LGUI A &bhm LCTRL S &bhm LALT D    &shm LSHIFT F &kp G &none  &kp LCTRL &kp LALT &none &none &kp LGUI  &kp RCTRL             &none &kp H &shm RSHIFT J  &bhm LALT K  &bhm RCTRL L  &bhm RGUI SEMI &kp EQUAL
-        &kp MINUS &kp Z     &kp X    &kp C    &kp V      &kp B         &none    &none     &kp HOME &none &none &kp PG_UP &none     &none           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp UNDER
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &lt 1 SPACE &kp BSPC   &kp TAB              &kp GRAVE &kp SQT &lt 2 ENTER              &kp LBKT &kp RBKT  &kp LBRC &kp RBRC &mo 2
+        &none   &kp N1 &kp N2      &kp N3      &kp N4       &kp N5 &tog 1                                                        &mo 3  &kp N6 &kp N7       &kp N8      &kp N9      &kp N0   &none
+        &none   &kp Q  &kp W       &kp E       &kp R        &kp T  &none                                                         &none  &kp Y  &kp U        &kp I       &kp O       &kp P    &none
+        &kp ESC &kp A  &bhm LGUI S &bhm LALT D &bhm LCTRL F &kp G  &none              &none    &none &none &none                 &none  &kp H  &bhm LCTRL J &bhm LALT K &bhm LGUI L &kp SEMI &kp TAB
+        &none   &kp Z  &kp X       &kp C       &kp V        &kp B                              &none &none                              &kp N  &kp M        &kp COMMA   &kp DOT     &kp FSLH &none
+        &none   &none  &none       &kp LEFT    &kp RIGHT                  &lt 1 SPACE &kp BSPC &none &none &lt 3 ENTER &kp SPACE               &kp UP       &kp DOWN    &none       &none    &none
       >;
     };
-    keypad {
+    symbols {
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                                       &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
-        &trans  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT     &none                                                                        &none &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &trans
-        &trans  &kp N1   &kp N2 &kp N3   &kp N4   &kp N5        &none           &kp LCTRL &kp LALT &none &none &kp LGUI  &kp RCTRL           &none &kp N6 &kp N7 &kp N8  &kp N9 &kp N0 &trans
-        &trans  &kp ESC   &kp PLUS &kp MINUS   &kp EQUAL   &kp UNDER         &none    &none     &kp HOME &none &none &kp PG_UP &none     &none           &kp LBKT &kp RBKT  &kp BSLH     &kp LBRC &kp RBRC &kp TILDE
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &trans &trans &trans                    &trans &trans &trans              &trans     &trans     &trans    &trans        &mo 2
+        &none &none  &none    &none    &none    &none     &none                                                        &none &none      &none     &none       &none    &none        &none
+        &none &none  &kp LBRC &kp RBRC &kp HASH &kp GRAVE &none                                                        &none &kp DOLLAR &kp PIPE  &kp DQT     &kp SQT  &kp BSLH     &none
+        &none &kp LT &kp LPAR &kp RPAR &kp GT   &kp TILDE &none             &none    &none &none &none                 &none &kp CARET  &kp MINUS &kp EQUAL   &kp PLUS &kp COLON    &none
+        &none &none  &kp LBKT &kp RBKT &kp STAR &kp AT                               &none &none                             &kp AMPS   &kp UNDER &kp PERCENT &kp EXCL &kp QUESTION &none
+        &none &none  &none    &none    &none                    &lt 1 SPACE &kp BSPC &none &none &lt 3 ENTER &kp SPACE                  &none     &none       &none    &none        &none
       >;
     };
     fn {
